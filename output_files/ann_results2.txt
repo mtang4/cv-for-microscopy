@@ -1,0 +1,23 @@
+step size = 100, smaller network (2 hidden layers, 10 nodes each).
+total KNOWN parameter test error: 
+
+ans =
+
+       1546.8
+       1543.4
+       1567.3
+       2.2422
+       2.3032
+       1.9468
+
+total RANDOM parameter test error: 
+
+ans =
+
+       2109.8
+       2210.1
+       2464.6
+       2.1412
+       2.6104
+       2.5564
+
