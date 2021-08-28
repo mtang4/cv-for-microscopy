@@ -1,4 +1,4 @@
-trainSize = 500;
+trainSize = 1000;  % change training size as necessary
 
 imAt=double(imread('singleMito.tif'));
 imBt=double(imread('singleActin.tif'));
@@ -29,7 +29,7 @@ for i=1:trainSize
     file = sprintf('image%d.mat', i);
     save(file, 'data')
 end
-save('train_labels.mat', 'params')
+save('train_labels.mat', 'params'). % save parameters to create labels for training set
 
 % function definition
 function CubeData=generate3ComponentData(imA,imB,imC,tau1,tau2,tau3)
