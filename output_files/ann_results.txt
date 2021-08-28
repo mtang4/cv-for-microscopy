@@ -1,3 +1,4 @@
+NOTE: incorrect error calculation for known test parameters
 total KNOWN parameter test error: 
 
 ans =
