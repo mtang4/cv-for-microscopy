@@ -1,0 +1,21 @@
+total KNOWN parameter test error: 
+
+ans =
+
+         90.2
+       88.492
+        89.45
+    0.0096121
+      0.11774
+      0.20878
+
+total RANDOM parameter test error: 
+
+ans =
+
+         2278
+       2013.3
+       2316.9
+       1.2286
+       1.7293
+       4.7442
