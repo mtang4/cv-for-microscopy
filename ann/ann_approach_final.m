@@ -1,8 +1,5 @@
 time = 300;
-i = 1:time;
-h = 6;
 t = 1:time;
-t2 = i .* h;  % not sure -- histogram x-axis?
 
 index=1;
 params=100:100:10000;
