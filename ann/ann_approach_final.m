@@ -38,7 +38,7 @@ for i=1:len
     end
 end
 fprintf("Completed training set.\n")
-net = feedforwardnet([10,10]);
+net = feedforwardnet([10,50,10]);
 net.trainParam.epochs = 50;
 net.trainParam.max_fail = 20;
 fprintf("Begin training.\n")
